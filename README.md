@@ -1,6 +1,6 @@
 # RoomMates
 ##Have you ever had the issue where you could not remember **who paid** for **what**?<h2>
-##<h2>Don't you wish there was an **easy way** to keep track of **payments** between **roommates**?<h2>
+##Don't you wish there was an **easy way** to keep track of **payments** between **roommates**?<h2>
 
 Well the solution is here! I created this app in mind to do the following:
 1. Keep track of local users
