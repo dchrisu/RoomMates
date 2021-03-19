@@ -4,5 +4,10 @@ import androidx.room.ColumnInfo
 import androidx.room.Entity
 import androidx.room.PrimaryKey
 
-@Entity(tableName="roomMate_table")
-data class RoomMates(@PrimaryKey(autoGenerate = true) val id:Int, @ColumnInfo(name="roomMate") val roomMate: String)
+@Entity(tableName="RoomMate_table")
+data class RoomMates(
+    @PrimaryKey(autoGenerate = true) val RoomMateID:Int,
+    @ColumnInfo(name="FName") val FName: String?,
+    @ColumnInfo(name="LName") val LName: String?,
+    @ColumnInfo(name="WholeName") val WholeName: String?
+)
